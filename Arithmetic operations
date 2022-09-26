@@ -1,0 +1,17 @@
+x=int(input("enter the number"))
+n=int(nput("enter the number"))
+option=int(input("enter the operation"))
+if(option==1):
+    a=x+n
+    print("the addition",a)
+elif(option==2):
+    s=x-n
+    print("the subtraction",s)
+elif(option==3):
+    m=x*n
+    print("the multiplication",m)
+elif(option==4):
+    m=x/n
+    print("the division",d)
+    else:
+        print("failed")
