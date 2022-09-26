@@ -1,0 +1,6 @@
+str1=str(input("enter the username"))
+str2=str(input("reenter the username"))
+if (str1==str2):
+   print("user name is valid")
+else:
+    print("user name is invalid")
