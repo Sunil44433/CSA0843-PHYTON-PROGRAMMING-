@@ -1,0 +1,16 @@
+
+str=input("Please enter a string: ")#take input from the user
+upper, lower, num, special=0,0,0,0;#variable declaration and initilization
+for i in range(len(str))
+  if(str[i]>='A' and str[i]<='Z'):#check upper case letters
+     upper+=1
+  elif(str[i]>='a' and str[i]<='z'):#check lower case letter
+     lower+=1
+  elif(str[i]>='1' and str[i]<='9'):#check numeric value
+      num+=1
+  else:
+      special+=1
+print("Upper case letters: ",upper)
+print("\nLower case letters: ",lower)
+print("\nnumbers: ",num)
+print("\nSpecial characters: ",special)
